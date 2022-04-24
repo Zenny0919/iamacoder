@@ -1,0 +1,50 @@
+table, 
+th,
+td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#mytable{
+    color:green;
+}
+
+.mytable_class{
+    background: yellow;
+}
+
+ul.info>li{
+    list-style: none;
+}
+
+ul.info>li li:nth-child(3){
+    list-style: none;
+}
+
+ol li a{
+    text-decoration: none;
+}
+ol li a[target="_blank"] {
+    color: blue
+}
+
+ol li a[href="https://google.com"] {
+    color:green
+}
+
+ol li a[href*="google"] {
+    color:pink
+}
+
+ol li a[href$=".au"] {
+    background:brown
+}
+
+ol li a[href^="http"] {
+    color:aqua
+}
+
+ol li a[href$=".com.au"][href*="google"] {
+    background:black
+}
